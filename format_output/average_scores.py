@@ -26,5 +26,14 @@ age = input("Please enter your age: ")
 average_scores = average()
 # Format output and print to console
 print('{}, {} age: {} average grade: {:.2f}'.format(last_name, first_name, age, average_scores))
+"""
+Test Run input and output
 
-
+Please enter your first name: Daniel
+Please enter your last name: Meeker
+Please enter your age: 31
+Please enter a value for score 1: 99
+Please enter a value for score 2: 90
+Please enter a value for score 3: 91
+Meeker, Daniel age: 31 average grade: 93.33
+"""
